@@ -2,7 +2,7 @@
 
 A fork of spotify-ripper that uses [pyspotify](https://github.com/mopidy/pyspotify) v2.1.3
 
-[Mirror of project](https://gitea.com/richardk80/spotify-ripper)
+[Mirror of project on Gitea](https://gitea.com/richardk80/spotify-ripper)
 
 Spotify Ripper is a small ripper script for Spotify that rips Spotify
 URIs to audio files and includes ID3 tags and cover art.
