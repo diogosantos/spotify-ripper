@@ -10,7 +10,7 @@ fi
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 output_dir="$SCRIPT_DIR"/output
-destination_dir="/Volumes/T5_djogo/Music/Reference Tracks"
+destination_dir="/Music"
 
 docker run --mount type=bind,source="$output_dir",target=/output spotify-ripper --wav --directory /output --user $pw_account --password $cli_password spotify:track:$1
 
