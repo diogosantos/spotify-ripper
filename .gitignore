@@ -63,4 +63,4 @@ spotify_appkey.key
 tmp/*
 *~
 
-output/
+bin/output/
