@@ -13,6 +13,6 @@ destination_dir="/Volumes/T5_djogo/Music/Reference Tracks/"
 
 docker run --mount type=bind,source="$output_dir",target=/output spotify-ripper --wav --directory /output --user $pw_account --password $cli_password spotify:track:$1
 
-mv "$output_dir"/* "$destination_dir"
+cp -r "$output_dir"/* "$destination_dir" && rm -R "$output_dir"/*
 
 open "$destination_dir"
