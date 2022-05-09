@@ -322,8 +322,6 @@ The recommended approach uses [pyenv](https://github.com/yyuu/pyenv). If you don
 
 4. See if pip is installed by typing in `pip`
 
-5. Type in `sudo pip install pyspotify` (Enter your password if instructed to)
-
 > To install spotify-ripper on Raspberry Pi 4, you need to be running Ubuntu 18.04.6 to 21.10 and it should be the ARMHF version because the ARM64 version will not work at all.
 
 Here are links to the actual distros you can use: [18.04.6](https://cdimage.ubuntu.com/releases/18.04.6/release/ubuntu-18.04.5-preinstalled-server-armhf+raspi4.img.xz) | [20.04.3](https://cdimage.ubuntu.com/releases/20.04.3/release/ubuntu-20.04.3-preinstalled-server-armhf+raspi.img.xz) | [21.04](https://cdimage.ubuntu.com/releases/21.04/release/ubuntu-21.04-preinstalled-server-armhf+raspi.img.xz) | [21.10](https://cdimage.ubuntu.com/releases/21.10/release/ubuntu-21.10-preinstalled-server-armhf+raspi.img.xz)
