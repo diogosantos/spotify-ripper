@@ -314,13 +314,13 @@ The recommended approach uses [pyenv](https://github.com/yyuu/pyenv). If you don
 
 >Follow these steps to install pip for Python 2.
 
-1. Type in `curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py`
+1. Use `sudo apt install curl` to install Curl in Ubuntu
+
+2. Type in `curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py`
 
 3. Type in `sudo python get-pip.py` or `sudo python2 get-pip.py` (Enter your password if instructed to)
 
-5. See if pip is installed by typing in `pip`
-
-7. Type in `sudo pip install pyspotify` (Enter your password if instructed to)
+4. See if pip is installed by typing in `pip`
 
 > To install spotify-ripper on Raspberry Pi 4, you need to be running Ubuntu 18.04.6 to 21.10 and it should be the ARMHF version because the ARM64 version will not work at all.
 
